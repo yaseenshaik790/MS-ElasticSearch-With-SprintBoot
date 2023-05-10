@@ -1,0 +1,8 @@
+com\sky\elasticsearch\service\PersonServiceImpl.class
+com\sky\elasticsearch\controller\PersonController.class
+com\sky\elasticsearch\repository\PersonRepository.class
+com\sky\elasticsearch\document\Person.class
+com\sky\elasticsearch\indices\Indeces.class
+com\sky\elasticsearch\config\Config.class
+com\sky\elasticsearch\service\PersonService.class
+com\sky\elasticsearch\MsElasticsearchApplication.class
