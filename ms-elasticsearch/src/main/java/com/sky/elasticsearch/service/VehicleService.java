@@ -39,7 +39,7 @@ public class VehicleService {
     }
 
     public List<Vehicle> search(final SearchRequestDto requestDto) {
-        final SearchRequest searchRequest = SearchUtils.buildSearchRequest(Indices.VEHICLE_INDEX, requestDto);
+        SearchRequest searchRequest = SearchUtils.buildSearchRequest(Indices.VEHICLE_INDEX, requestDto);
 
         if (searchRequest == null) {
             return Collections.emptyList();
